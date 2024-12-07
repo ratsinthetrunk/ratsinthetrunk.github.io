@@ -23,11 +23,11 @@
 
      // unmute and mute the video, and change the button text
      function myFunction() {
-       if (video.prop("muted")) {
-         video.prop("muted",false);
+       if (video.muted) {
+         video.muted=false);
          btn.innerHTML = "no noise";
         } else {
-         video.prop("muted",true);
+         video.muted=true;
          btn.innerHTML = "noise";
         }
       }
@@ -36,7 +36,7 @@
    <!-- <script src="index.js"></script> -->
     <div class="content">
       <!-- Use a button to pause/play the video with JavaScript -->
-      <button id="myBtn" onclick="myFunction()">noise!</button>
+      <button id="myBtn" onclick="myFunction()">noise</button>
     </div>
     
   </body>
