@@ -1,3 +1,5 @@
+<!-- this file not currently being called - need to find a way to pass variables in to use-->
+
 <script>
 // Get the video
 var video = document.getElementById("myVideo");
