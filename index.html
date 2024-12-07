@@ -22,7 +22,7 @@
      var btn = document.getElementById("myBtn");
 
      // unmute and mute the video, and change the button text
-     function myFunction() {
+  <!--   function myFunction() {
        if (video.paused) {
         // video.muted=false);
          btn.innerHTML = "no noise";
@@ -30,13 +30,24 @@
         // video.muted=true;
          btn.innerHTML = "noise";
         }
-      }
+      } -->
+
+     // Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
 </script>
     
    <!-- <script src="index.js"></script> -->
     <div class="content">
       <!-- Use a button to pause/play the video with JavaScript -->
-      <button id="myBtn" onclick="myFunction()">noise!!</button>
+      <button id="myBtn" onclick="myFunction()">noise!</button>
     </div>
     
   </body>
