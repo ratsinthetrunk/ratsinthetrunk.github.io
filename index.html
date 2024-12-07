@@ -15,28 +15,28 @@
       your browser does not support these rats
     </video>
    <script>
-// Get the video
-var video = document.getElementById("myVideo");
+     // Get the video
+     var video = document.getElementById("myVideo");
 
-// Get the button
-var btn = document.getElementById("myBtn");
+     // Get the button
+     var btn = document.getElementById("myBtn");
 
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+     // unmute and mute the video, and change the button text
+     function myFunction() {
+       if (video.muted) {
+         video.unmute();
+         btn.innerHTML = "no noise";
+        } else {
+         video.mute();
+         btn.innerHTML = "noise";
+        }
+      }
 </script>
     
    <!-- <script src="index.js"></script> -->
     <div class="content">
       <!-- Use a button to pause/play the video with JavaScript -->
-      <button id="myBtn" onclick="myFunction()">test!</button>
+      <button id="myBtn" onclick="myFunction()">noise</button>
     </div>
     
   </body>
