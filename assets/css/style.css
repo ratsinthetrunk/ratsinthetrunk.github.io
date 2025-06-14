@@ -493,7 +493,7 @@ input::-ms-input-placeholder {
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s;
-    height: 80px;
+    height: 100px;
     /*    background-color: transparent;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -504,7 +504,7 @@ input::-ms-input-placeholder {
 .menu-scroll .main_menu_bg{
     margin-top: 0px;
     background-color: transparent;
-    height: 80px;
+    height: 100px;
 }
 .menu-scroll .main_menu_bg .nave_menu {
     margin-top:0px;
