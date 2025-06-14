@@ -107,7 +107,7 @@
                             <h1>what we do?</h1>
                         </div><!-- End of head title -->
 
-                        <div class="main_service_area"> 
+                            <!--<div class="main_service_area"> 
                             <div class="single_service_area">
                                 <div class="row">
                                     <div class="col-sm-6">
@@ -131,6 +131,36 @@
                                     </div>
                                 </div>
                             </div><!-- End of single service area -->
+<!-- <p>rats at work</p> -->
+    <video autoplay muted loop playsinline id="myVideo" width="300" height="300">
+      <source src="https://github.com/ratsinthetrunk/ratsinthetrunk.github.io/raw/refs/heads/main/media/FullSizeRender.mp4" type="video/mp4">
+      your browser does not support these rats
+    </video>
+   <script>
+     // Get the video
+     var video = document.getElementById("myVideo");
+
+     // Pause and play the video, and change the button text
+     function myFunction(btn) {
+       if (video.muted) {
+         btn.innerText = 'no noise';
+         video.muted = false;
+         
+       } else {
+         video.muted = true;
+         btn.innerText = 'noise';
+       }
+     }
+ </script>
+    
+   <!-- <script src="index.js"></script> -->
+    <div class="content">
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button id="myBtn" onclick="myFunction(this)">noise?</button>
+    </div>
+    
+  </body>
+</html>
 
                             <div class="single_service_area  margin-top-80">
                                 <div class="row">
