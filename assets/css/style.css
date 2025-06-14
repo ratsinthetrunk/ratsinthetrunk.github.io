@@ -564,6 +564,8 @@ input::-ms-input-placeholder {
     position: relative;
 
 }
+
+/*
 .main_home h1{
     color: #fff;
     padding-bottom: 25px;
@@ -615,7 +617,7 @@ input::-ms-input-placeholder {
     -moz-border-radius: 0px;
     border-radius: 0px;
     transform: rotate(45deg);
-}
+}*/
 
 
 /*========================================================================
